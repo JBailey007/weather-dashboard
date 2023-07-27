@@ -39,6 +39,22 @@ h1 {
 .weather-input .separator {
     height: 1px;
     width: 100%;
+    margin: 25px 0;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.weather-input .separator::before {
+    color: #6C757D;
+    text-align: center;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    background: white;
+
 }
 
 .weather-input button {
@@ -53,9 +69,16 @@ h1 {
     background: #5372F0;
 }
 
-.weather-input .location-btn {
-    background: #6C757D;
+.details {
+    border: solid;
+    padding: 10px;
+}
 
+h2 {
+    padding: 2px;
+}
+h4 {
+    padding: 2px;
 }
 
 .weather-data {
