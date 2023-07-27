@@ -9,8 +9,28 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <div>
-            <h1>Weather Dashboard</h1>
+        <h1>Weather Dashboard</h1>
+        <div class="container">
+            <div class="weather-input">
+                <h3>Enter a City Name</h3>
+                <input type="text" placeholder="E.g., Salt Lake City, Tokyo, Beijing">
+                <button class="search-btn">Search</button>
+                <div class="separator"></div>
+                <button class="location-btn">Use Current Location</button>
+            </div>
+            <div class="weather-data">
+                <div class="current-weather">
+                    <div class="details">
+                        <h2>London (2023-06-19)</h2>
+                        <h4>Temperature: 19.10C</h4>
+                        <h4>Wind: 4.32 M/S</h4>
+                        <h4>Humidity: 79%</h4>
+                    </div>
+                    <div class="icon">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="./assets/js/script.js" async defer></script>
     </body>
