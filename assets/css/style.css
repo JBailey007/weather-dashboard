@@ -15,7 +15,11 @@ h1 {
     font-size: 1.75rem;
     background: #5372F0;
 }
-
+.history-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
 .container {
     display: flex;
     gap: 35px;
@@ -89,6 +93,11 @@ h2 {
     font-size: 1rem;
     font-weight: 500;
 }
+
+.current-weather .icon {
+    text-align: center;
+}
+
 
 .weather-data {
     width: 100%;
