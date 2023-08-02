@@ -6,7 +6,7 @@ This webpage is a weather application that allows you to find the weather foreca
 
 ## Installation
 
-You can access this page using the following link. (https://jbailey007.github.io/work-day-scheduler/)
+You can access this page using the following link. (https://jbailey007.github.io/weather-dashboard/)
 
 ## Usage
 You may select the input box on the top left of the screen by clicking on it. 
